@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <script>
+        function feedback() {
+            var na = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+            var em = /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/;
+
+
+            if (!na.test(input)) {
+                alert("Check The Validation of Name");
+            }
+            else if (!em.test(email)) {
+                alert("Check The Validation of Name");
+            }
+            else {
+                alert("Thanks For Your Feedback");
+            }
+        }
+
+        function trash(event)
+        {
+            var section = event.target.closest('section#list');
+            if (section){
+               section.remove();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="first"></div>
+    <br><br>
+    <nav class="nav">
+        <h1>Pick Snacks</h1>
+
+        <div class="ul">
+            <ul>
+                <li><a href="Home.html"> <i class="fa-solid fa-house"></i>Home</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form>
+                <input type="search" placeholder="search....">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <section id="list">
+        <div class="cart">
+            <a href="order.html"><img src="Gallery/burder home.webp" alt="burger"></a>
+        </div>
+        <div class="content">
+            <p><b>Large Chesse Burger</b> 
+                 
+            </p><br>
+            <p> Rs.350</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem,sit doloremque?</p>
+             
+            <form>
+                <input type="number" max="5" min="0" value="0">
+                <a href="order.html"><button type="button">Buy</button></a>
+
+                <div class="bin" onclick="trash(event)">
+                    <i class="fa-solid fa-trash-can"></i>
+                </div> 
+            </form>
+        </div>
+    </section>
+    
+    <section id="list">
+        <div class="cart">
+            <a href="order.html"><img src="Gallery/icecrem.avif" alt="burger"></a>
+        </div>
+        <div class="content">
+            <p><b>Dark Browni & Ice Cone</b></p><br>
+            <p> Rs.220</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem,
+                sit doloremque?</p>
+            <form>
+                <input type="number" max="5" min="0" value="0">
+                <a href="order.html"><button type="button">Buy</button></a>
+
+                <div class="bin" onclick="trash(event)">
+                    <i class="fa-solid fa-trash-can"></i>
+                </div> 
+            </form>
+        </div>
+    </section>
+    
+    <section id="list">
+        <div class="cart">
+            <a href="order.html"><img src="Gallery/sandwich.avif" alt="burger"></a>
+        </div>
+        <div class="content">
+            <p><b>Grill Sandwich</b></p><br>
+            <p> Rs.250</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem,
+                sit doloremque?</p>
+            <form>
+                <input type="number" max="5" min="0" value="0">
+                <a href="order.html"><button type="button">Buy</button></a>
+
+                <div class="bin" onclick="trash(event)">
+                    <i class="fa-solid fa-trash-can"></i>
+                </div> 
+            </form>
+        </div>
+    </section>
+    
+    <section id="list">
+        <div class="cart">
+            <a href="order.html"><img src="Gallery/falooda.jpg" alt="burger"></a>
+        </div>
+        <div class="content">
+            <p><b> Mix Dry Fruits Falooda</b></p><br>
+            <p> Rs.180</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem,
+                sit doloremque?</p>
+            <form>
+                <input type="number" max="5" min="0" value="0">
+                <a href="order.html"><button type="button">Buy</button></a>
+
+                <div class="bin" onclick="trash(event)">
+                    <i class="fa-solid fa-trash-can"></i>
+                </div> 
+
+            </form>
+        </div>
+    </section>
+    
+    <section id="list">
+        <div class="cart">
+            <a href="order.html"><img src="Gallery/pitza.avif" alt="burger"></a>
+        </div>
+        <div class="content">
+            <p><b>Large Chesse Pitza</b></p><br>
+            <p> Rs.350</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem,
+                sit doloremque?</p>
+            <form>
+                <input type="number" max="5" min="0" value="0">
+                <a href="order.html"><button type="button">Buy</button></a>
+
+                <div class="bin" onclick="trash(event)">
+                    <i class="fa-solid fa-trash-can"></i>
+                </div> 
+
+            </form>
+        </div>
+    </section>
+    
+    <section id="list">
+        <div class="cart">
+            <a href="order.html"><img src="Gallery/barbiq.jpg" alt="burger"></a>
+        </div>
+        <div class="content">
+            <p><b>Barbie Q Chicken</b></p><br>
+            <p> Rs.520</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem,
+                sit doloremque?</p>
+            <form>
+                <input type="number" max="5" min="0" value="0">
+                <a href="order.html"><button type="button">Buy</button></a>
+
+                <div class="bin" onclick="trash(event)">
+                    <i class="fa-solid fa-trash-can"></i>
+                </div> 
+            </form>
+        </div>
+    </section>
+    
+    <section id="list">
+        <div class="cart">
+            <a href="order.html"><img src="Gallery/pexels-photo-1702373.jpeg" alt="burger"></a>
+        </div>
+        <div class="content">
+            <p><b>Birthday Cakes</b></p><br>
+            <p> Rs.350 /- per kg</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem,
+                sit doloremque?</p>
+            <form>
+                <input type="number" max="5" min="0" value="0">
+                <a href="order.html"><button type="button">Buy</button></a>
+
+                <div class="bin" onclick="trash(event)">
+                    <i class="fa-solid fa-trash-can"></i>
+                </div> 
+        
+            </form>
+        </div>
+
+    </section>
+    
+
+    <div class="order">
+        <a href="order.html"><button type="submit">Proceed to order</button></a>
+    </div>
+
+    <section class="con">
+        <img src="Gallery/footer-1.jpeg" alt="" />
+        <footer>
+            <div class="data">
+
+                <div class="head">
+                    <h1>Get In Touch</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br />Explicabo, at sapiente quisquam
+                    </p>
+
+                    <div class="input">
+                        <input type="text" placeholder="Name" id="input" />
+                        <input type="email" placeholder="Email" id="email" />
+                    </div>
+
+                    <div class="mess">
+                        <textarea name="#" cols="30" rows="10" placeholder="Leave Your Message here..."></textarea>
+                    </div>
+
+                    <button type="submit" onclick="feedback()">Submit</button>
+                </div>
+
+                <div class="ol">
+
+                    <div class="p-1">
+                        <h3>Maker</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet <br>consectetur adipisicing elit. <br>Alias
+                            quibusdam similique nisi <br> nostrum incidunt assumenda!
+                        </p>
+                    </div>
+
+                    <div class="p-2">
+                        <h3>Our Branches</h3>
+                        <ul>
+                            <li>Anna Nagar</li>
+                            <li>Vadapalani</li>
+                            <li>Velachery</li>
+                            <li>OMR</li>
+                            <li>Vilivakam</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-3">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

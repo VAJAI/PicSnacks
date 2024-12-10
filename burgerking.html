@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Burger King</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="burgerking.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+      
+
+    <script>
+
+      function feedback(){
+      var input = document.getElementById("input").value;
+      var email = document.getElementById("email").value;
+      
+    
+       var na =/^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+       var em =/^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/;
+       
+      
+      if(!na.test(input)){
+         alert("Check The Validation of Name");
+      }
+      else if(!em.test(email)){
+        alert("Check The Validation of Name");
+      }
+      else{
+        alert("Thanks For Your Feedback");
+      }
+    }
+    </script>
+
+
+</head>
+
+<body>
+
+  <nav class="navebar">
+    <img src="Gallery/logo.png" alt="logo">
+    <h1><a href="">Pick Snacks</a></h1>
+    <ul class="link">
+      <li>
+        <a href="Home.html"><i class="fa-solid fa-house"></i>Home</a>
+      </li>
+      <li>
+        <a href="hotel.html"><i class="fa-regular fa-address-card"></i>Hotels</a>
+      </li>
+      <li>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+      </li>
+      <li>
+        <a href="order.html"><i class="fa-solid fa-truck-fast"></i>Order</a>
+      </li>
+    </ul>
+    <div class="icon">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-bell"></i>
+      <i class="fa-solid fa-gear"></i>
+    </div>
+  </nav>
+
+
+  <section class="detail">
+    <h3>Burger King</h3>
+    <div class="child">
+      <i class="fa-solid fa-star"></i>4.5(1K + Ratings) .500 for two <br>
+      <p><a href="">Burger</a> <a href="">Frency Fryes</a></p>
+        <div class="out">
+        <div>
+        <div class="cir"></div>
+        <div class="line"></div>
+        <div class="cir"></div>
+        </div>
+
+        <div class="ran">
+          <h5>Outlet</h5>
+          <h5>30-40 mins</h5>
+        </div>
+        </div>
+        <hr style="margin-top: -15px;">
+        <div class="le"><p>Far (4.0 kms) | Additional delivery fee will apply</p></div>   
+    </div>
+  </section>
+
+  <section class="list">
+    <div class="cart">
+        <a href="cart.html"><img src="Gallery/bk-1.webp" alt="burger"></a>
+    </div>
+    <div class="content">
+        <p><b> Chesse Burger</b></p>
+        <p> Rs.350</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem, sit doloremque?</p>
+        <form>
+            <input type="number" value="0" min="0" max="5" >
+            <a href="cart.html"><button type="button">Buy</button></a>
+       </form>
+    </div>
+</section>
+<hr>
+<section class="list">
+    <div class="cart">
+        <a href="cart.html"><img src="Gallery/bk-2.jpg" alt="burger"></a>
+    </div>
+    <div class="content">
+        <p><b>Double Cheese Burger</b></p>
+        <p> Rs.220</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem, sit doloremque?</p>
+        <form>
+            <input type="number" value="0" min="0" max="5">
+            <a href="cart.html"><button type="button">Buy</button></a>
+        </form>
+    </div>
+</section>
+<hr>
+<section class="list">
+    <div class="cart">
+        <a href="cart.html"><img src="Gallery/bk-3.jpeg"></a>
+    </div>
+    <div class="content">
+        <p><b>Grill Sandwich</b></p>
+        <p> Rs.250</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem, sit doloremque?</p>
+        <form>
+            <input type="number" value="0" min="0" max="5">
+            <a href="cart.html"><button type="button">Buy</button></a>
+        </form>
+    </div>
+</section>
+<hr>
+<section class="list">
+    <div class="cart">
+        <a href="cart.html"><img src="Gallery/bk-4.jpeg" alt="burger"></a>
+    </div>
+    <div class="content">
+        <p><b> Mix Dry Fruits Falooda</b></p>
+        <p> Rs.180</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem, sit doloremque?</p>
+        <form>
+            <input type="number" value="0" min="0" max="5">
+            <a href="cart.html"><button type="button">Buy</button></a>
+        </form>
+    </div>
+</section>
+<hr>
+<section class="list">
+    <div class="cart">
+        <a href="cart.html"><img src="Gallery/bk-5.avif" alt="burger"></a>
+    </div>
+    <div class="content">
+        <p><b>Large  Chesse Pitza</b></p>
+        <p> Rs.350</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem, sit doloremque?</p>
+        <form>
+            <input type="number" value="0" min="0" max="5">
+            <a href="cart.html"><button type="button">Buy</button></a>
+        </form>
+    </div>
+</section>
+<hr>
+<section class="list">
+    <div class="cart">
+        <a href="cart.html"><img src="Gallery/bk-6.avif" alt="burger"></a>
+    </div>
+    <div class="content">
+        <p><b>Barbie Q Chicken</b></p>
+        <p> Rs.520</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem, sit doloremque?</p>
+        <form>
+            <input type="number" value="0" min="0" max="5">
+            <a href="cart.html"><button type="button">Buy</button></a>
+        </form>
+    </div>
+</section>
+<hr>
+<section class="list">
+    <div class="cart">
+        <a href="cart.html"><img src="Gallery/bk-7.jpg" alt="burger"></a>
+    </div>
+    <div class="content">
+        <p><b>Birthday Cakes</b></p>
+        <p> Rs.350 /- per kg</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iure perspiciatis praesentium voluptatem, sit doloremque?</p>
+        <form>
+            <input type="number" value="0" min="0" max="5">
+            <a href="cart.html"><button type="button">Buy</button></a>
+        </form>
+    </div>
+</section>
+<hr>
+
+<div class="order">
+  <a href="cart.html"><button type="submit">Proceed to order</button></a>
+</div>
+
+
+  <section class="con">
+    <img src="Gallery/footer-1.jpeg" alt="" />
+    <footer>
+      <div class="data">
+
+        <div class="head">
+          <h1>Get In Touch</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <br />Explicabo, at sapiente quisquam
+          </p>
+
+          <div class="input">
+            <input type="text" placeholder="Name"  id="input"/>
+            <input type="email" placeholder="Email" id="email" />
+          </div>
+
+          <div class="mess">
+            <textarea name="#" cols="30" rows="10" placeholder="Leave Your Message here..."></textarea>
+          </div>
+
+          <button type="submit" onclick="feedback()">Submit</button>
+        </div>
+
+        <div class="ol">
+
+          <div class="p-1">
+            <h3>Maker</h3>
+            <p>
+              Lorem ipsum dolor, sit amet <br>consectetur adipisicing elit. <br>Alias
+              quibusdam similique nisi <br> nostrum incidunt assumenda!
+            </p>
+          </div>
+
+          <div class="p-2">
+            <h3>Our Branches</h3>
+            <ul>
+              <li>Anna Nagar</li>
+              <li>Vadapalani</li>
+              <li>Velachery</li>
+              <li>OMR</li>
+              <li>Vilivakam</li>
+            </ul>
+          </div>
+
+          <div class="p-3">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </section>
+
+
+
+</body>
+
+</html>

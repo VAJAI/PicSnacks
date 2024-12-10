@@ -1,0 +1,343 @@
+body {
+  background-color: #ffdee9;
+  background: linear-gradient(to right, #ffdee9, #b5fffc);
+  font-family: "poppins" , sans-serif;
+}
+
+.he{
+  color: red;
+}
+
+/* navbar */
+.navebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid black;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.navebar img{
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+}
+
+h1 a{
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 60px;
+    color: #f1683a;
+
+}
+.link{
+    display: flex;
+    list-style: none;
+    gap: 20px;  
+    font-size: 25px;
+    
+}
+.link a{
+    text-decoration: none;
+    color: #f1683a;
+    justify-content: space-evenly;
+}
+
+.link a i{
+    color: black;
+    width: 35px;
+}
+.icon i{
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* navbar */
+
+.que h1{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.parent{
+    display: flex;
+    background-color:transparent;
+    margin-top: 40px;
+  
+}
+
+.parent .child-1{
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.parent .child-1 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.parent .child-1 .imagebox{
+    transition: all 0.4s ease-in-out;
+}
+
+.parent .child-1 .imagebox:hover{
+  transform: scale(1.1);
+}
+
+.parent .child-1 .imagebox h4{
+    margin-left: 80px;
+}
+
+/* resturants */
+.coffee {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
+  .shop {
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 15px;  
+    transition: all 0.5s ease;
+  }
+
+  .shop:hover{
+    transform: scale(0.95);
+  }
+  .coffee-image {
+    background-color: aqua;
+    height: 250px;
+    margin-bottom: 7px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+   
+  .coffee-image h4{
+    font-weight: 500;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    font-size: 2em;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+    opacity: 0.8;
+    
+  }
+
+  .coffee-image .black{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    opacity: 0.6;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .img-1 {
+    background-image: url(Gallery/pitza\ hut.jpg);
+  }
+  .img-2 {
+    background-image: url(Gallery/kfc-1.jpg);
+  }
+  .img-3 {
+    background-image: url(Gallery/chinesh\ wok.avif);
+  }
+
+  .img-4 {
+    background-image: url(Gallery/macdonalds.webp);
+  }
+
+  .img-5{
+    background-image: url(Gallery/bk-1.webp);
+  }
+
+  .img-6{
+    background-image: url(Gallery/do-6.jpg);
+  }
+  .img-7 {
+    background-image: url(Gallery/kowality\ ice.webp);
+  }
+
+  .img-8{
+    background-image: url(Gallery/nic\ ice\ cream.png);
+  }
+
+  .img-9{
+    background-image: url(Gallery/hrx\ beverages.avif);
+  }
+   
+  .shop .io{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .shop .io i{
+    font-size: 25px;
+  }
+
+  .shop h2 {
+    padding: 10px;
+    margin-top: -10px;
+    text-transform: uppercase;
+    letter-spacing: 0.8;
+  }
+  
+  
+  .shop p {
+    padding: 10px;
+    margin-top: -40px;
+  }
+  
+  .shop .de{
+    color: grey;
+  }
+
+  .shop p i{
+    color: green;
+  }
+
+  .shop button{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #f1683a;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "poppins" , sans-serif;
+  }
+
+/* resturants */
+
+/* footer */
+
+.con {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    color: white;
+}
+
+.con img{
+    width: 100%;
+    filter: grayscale(0.5) brightness(0.4);
+}
+
+.con .data .head{
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+.con .data .head h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+.con .data .head p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.con .data .head .input{
+    margin-left: 400px;
+    margin-top: 50px;
+    color: white;
+    
+}
+.con .data .head .input input{ 
+    width: 300px;
+    height: 50px;
+    margin-left: 35px;
+    font-size: 16px;
+    background-color: darkgrey;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    color: whitesmoke;
+    padding-left: 20px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.con .data .head .mess{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.con .data .head .mess textarea{
+    width: 700px;
+    height: 200px;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    background: darkgray;
+    filter: grayscale(0.1);
+    color: whitesmoke;
+    outline: none;
+    border: none;
+}
+
+.con .data button{
+    margin-top: 50px;
+    margin-left: 500px;
+    height: 45px;
+    width: 550px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background-color: #f1683a;
+    border-radius: 15px;
+}
+
+.data .ol{
+    background-color: #f1683a;
+    color: white;
+    position: absolute;
+    top: 800px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;  
+}
+
+.data .ol li{
+    list-style: none;
+}
+
+
+.data .ol .p-1 h3{
+    font-size: 20px;
+}
+
+.data .ol .p-2 ul{
+    margin-left: -40px;
+}
+
+.data .ol .p-3 li{
+    display: inline-block;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.data .ol .p-3 ul{
+    margin-left: -50px;
+}
+/*footer */

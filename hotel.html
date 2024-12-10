@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta>
+    <meta>
+    <title>Hotels</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="hotel.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
+    <script src="jquery.js"></script>
+    <script>
+
+            function colorchange(ele){
+            ele.classList.toggle('he');
+            }
+
+
+        function feedback(){
+        var input = document.getElementById("input").value;
+        var email = document.getElementById("email").value;
+        
+    
+         var na =/^[A-Za-z]+/;
+         var em =/^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/;
+         
+        
+        if(!na.test(input)){
+           alert("Check The Validation of Name");
+        }
+        else if(!em.test(email)){
+          alert("Check The Validation of Name");
+        }
+        else{
+          alert("Thanks For Your Feedback");
+        }
+      }
+      </script>
+
+</head>
+
+<body>
+
+    <nav class="navebar">
+        <img src="Gallery/logo.png" alt="logo">
+        <h1><a href="">Pick Snacks</a></h1>
+        <ul class="link">
+            <li>
+                <a href="Home.html"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li>
+                <a href=""><i class="fa-regular fa-address-card"></i>Hotels</a>
+            </li>
+            <li>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+            </li>
+            <li>
+                <a href="order.html"><i class="fa-solid fa-truck-fast"></i>Order</a>
+            </li>
+        </ul>
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </nav>
+
+    <div class="que">
+        <h1>What's on your mind?</h1>
+    </div>
+ 
+    <div class="parent">
+        <div class="child-1">
+            <div class="imagebox">
+                <a href="hotel.html#poi"><img src="Gallery/burder-1.avif" alt=""></a>
+                <h4>Burger</h4>
+            </div>
+            <div class="imagebox">
+                <a href="hotel.html#poi"><img src="Gallery/sandwich.avif" alt=""></a>
+                <h4>Sandwitch</h4>
+            </div>
+            <div class="imagebox">
+                <a href="hotel.html#ico"><img src="Gallery/icecrem.avif" alt=""></a>
+                <h4>Icecrem</h4>
+            </div>
+            <div class="imagebox">
+                <a href="hotel.html#hut"><img src="Gallery/pitza.avif" alt=""></a>
+                <h4>Pitza</h4>
+            </div>
+            <div class="imagebox">
+                <a href="hotel.html#ico"><img src="Gallery/cake-1.jpg" alt=""></a>
+                <h4>Cakes</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="que">
+        <h1>Top Resturants</h1>
+    </div>
+
+    <section class="coffee">
+        <div class="shop" id="hut">
+            <div class="coffee-image img-1">
+                <div class="black">x</div>
+                <h4>30% OFF UPTO &#8377 200</h4>
+            </div>
+
+            <div class="io">
+                <h2>Pitza hut:</h2>
+                    <i class="fa-solid fa-heart"  onclick="colorchange(this)" ></i>
+            </div>
+
+            <p>
+                <i class="fa-solid fa-star"></i>4.8 . 35-40 mins
+            <p class="de">California-style, New York-style, Sicilian.</p>
+            <p class="de">Anna Nagar, Guindy, Chennai</p>
+            </p>
+
+            <a href="pitza hut .html"><button type="button">View Hotel</button></a>
+
+        </div>
+
+        <div class="shop">
+
+            <div class="coffee-image img-2">
+                <div class="black">x</div>
+                <h4>ITEMS AT &#8377 99</h4>
+            </div>
+
+            <div class="io">
+                <h2>kfc chicken :</h2>
+                <i class="fa-solid fa-heart"  onclick="colorchange(this)"></i>
+            </div>
+
+            <p>
+                <i class="fa-solid fa-star"></i>4.1 . 20-30 mins
+            <p class="de">8 Hot Wings, 4 Mini Filters, 4 Signature fries.</p>
+            <p class="de">Koyambed, Guindy, Chennai</p>
+            </p>
+
+            <a href="kfc.html"><button type="button">View Hotel</button></a>
+
+        </div>
+
+        
+        <div class="shop">
+            <div class="coffee-image img-3">
+                <div class="black">x</div>
+                <h4>ITEMS AT &#8377 119</h4>
+            </div>
+            <div class="io">
+                <h2>chinese wok :</h2>
+                <i class="fa-solid fa-heart"  onclick="colorchange(this)"></i>
+            </div>
+            <p>
+                <i class="fa-solid fa-star"></i> 4.5 . 30-40 mins
+            <p class="de">Chinese, Indian, Spicy Noodles</p>
+            <p class="de">Velachey, Vadapalani, Chennai</p>
+            </p>
+
+            <a href="chinese.html"><button type="button">View Hotel</button></a>
+
+        </div>
+
+        
+
+    </section>
+    <section class="coffee" >
+        <div class="shop" id="poi">
+            <div class="coffee-image img-4">
+                <div class="black">x</div>
+                <h4>10% OFF UPTO &#8377 100</h4>
+            </div>
+
+            <div class="io">
+                <h2>McDonald's:</h2>
+                    <i class="fa-solid fa-heart" onclick="colorchange(this)" ></i>
+            </div>
+
+            <p>
+                <i class="fa-solid fa-star"></i>3.9 . 15-20 mins
+            <p class="de">Medium Chessy , Chicken Burger , FrenchiFries.</p>
+            <p class="de">Velachey, Vadapalani, Chennai</p>
+            </p>
+
+            <a href="Mcdonatls.html"><button type="button">View Hotel</button></a>
+
+        </div>
+
+        <div class="shop">
+
+            <div class="coffee-image img-5">
+                <div class="black">x</div>
+                <h4>ITEMS AT &#8377 199</h4>
+            </div>
+
+            <div class="io">
+                <h2>Burger King :</h2>
+                <i class="fa-solid fa-heart" onclick="colorchange(this)" ></i>
+            </div>
+
+            <p>
+                <i class="fa-solid fa-star"></i>4.4 . 30-40 mins
+            <p class="de">Cripsy Veg Burger , Cripsy Chicken Burger </p>
+            <p class="de">Koyambed, Valasaravakam , Chennai</p>
+            </p>
+
+            <a href="burgerking.html"><button type="button">View Hotel</button></a>
+
+        </div>
+
+        <div class="shop">
+            <div class="coffee-image img-6">
+                <div class="black">x</div>
+                <h4>ITEMS AT &#8377 179</h4>
+            </div>
+            <div class="io">
+                <h2>Domino's :</h2>
+                <i class="fa-solid fa-heart" onclick="colorchange(this)" ></i>
+            </div>
+            <p>
+                <i class="fa-solid fa-star"></i> 4.3 . 35-40 mins
+            <p class="de">Chinese, Indian, Spicy Noodles</p>
+            <p class="de">Anna Nagar, Vadapalani, Chennai</p>
+            </p>
+
+            <a href="dominos.html"><button type="button">View Hotel</button></a>
+
+        </div>
+
+    </section>
+    <section class="coffee" >
+        <div class="shop" id="ico">
+            <div class="coffee-image img-7">
+                <div class="black">x</div>
+                <h4>10% OFF UPTO &#8377 100</h4>
+            </div>
+
+            <div class="io">
+                <h2>kowality wall's:</h2>
+                    <i class="fa-solid fa-heart" onclick="colorchange(this)" ></i>
+            </div>
+
+            <p>
+                <i class="fa-solid fa-star"></i>3.9 . 15-20 mins
+            <p class="de">ChocoBar, FamilyPacks, Brithday...</p>
+            <p class="de">Velachey, Vadapalani, Chennai</p>
+            </p>
+
+            <a href="kowality.html"><button type="button">View Hotel</button></a>
+
+        </div>
+
+        <div class="shop">
+
+            <div class="coffee-image img-8">
+                <div class="black">x</div>
+                <h4>ITEMS AT &#8377 299</h4>
+            </div>
+
+            <div class="io">
+                <h2>Nic icecream :</h2>
+                <i class="fa-solid fa-heart" onclick="colorchange(this)" ></i>
+            </div>
+
+            <p>
+                <i class="fa-solid fa-star"></i>4.1 . 20-25 mins
+            <p class="de">Choclate, Venila, Family packs </p>
+            <p class="de">Koyambed, Valasaravakam , Chennai</p>
+            </p>
+
+            <a href="nic.html"><button type="button">View Hotel</button></a>
+
+        </div>
+
+        <div class="shop">
+            <div class="coffee-image img-9">
+                <div class="black">x</div>
+                <h4>ITEMS AT &#8377 399</h4>
+            </div>
+            <div class="io">
+                <h2>hrx beverages:</h2>
+                <i class="fa-solid fa-heart"  onclick="colorchange(this)" ></i>
+            </div>
+            <p>
+                <i class="fa-solid fa-star"></i> 3.5 . 15-20 mins
+            <p class="de">Soft Drinks , Fresh Juice , etc</p>
+            <p class="de">Anna Nagar, Vadapalani, Chennai</p>
+            </p>
+
+            <a href="hrx.html"><button type="button">View Hotel</button></a>
+
+        </div>
+
+    </section>
+
+    
+
+    <section class="con">
+        <img src="Gallery/footer-1.jpeg" alt="" />
+        <footer>
+            <div class="data">
+
+                <div class="head">
+                    <h1>Get In Touch</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <br />Explicabo, at sapiente quisquam
+                    </p>
+
+                    <div class="input">
+                        <input type="text" placeholder="Name" id="input" />
+                        <input type="email" placeholder="Email" id="email" />
+                    </div>
+
+                    <div class="mess">
+                        <textarea name="#" cols="30" rows="10" placeholder="Leave Your Message here..."></textarea>
+                    </div>
+
+                    <button type="submit" onclick="feedback()">Submit</button>
+                </div>
+
+                <div class="ol">
+
+                    <div class="p-1">
+                        <h3>Maker</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet <br>consectetur adipisicing elit. <br>Alias
+                            quibusdam similique nisi <br> nostrum incidunt assumenda!
+                        </p>
+                    </div>
+
+                    <div class="p-2">
+                        <h3>Our Branches</h3>
+                        <ul>
+                            <li>Anna Nagar</li>
+                            <li>Vadapalani</li>
+                            <li>Velachery</li>
+                            <li>OMR</li>
+                            <li>Vilivakam</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-3">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+</body>
+
+</html>
